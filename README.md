@@ -10,7 +10,7 @@ time : 90 minutes
 
 Essentially, we are trying to avoid a situation like this one :
 
-![Version History](http://www.phdcomics.com/comics/archive/phd101212s.gif)
+![http://www.phdcomics.com/comics/archive/phd101212s.gif](phd101212s.gif)
 
 At a fundamental level, the problem is that we do not create perfect products the first time around. We add to them, remove things from them, and revise them heavily. For word processing tasks, like the PhD Comics example, this is somewhat harmless, and really is only costing you time in finding the correct document, or some embarrassment if you send the wrong document to a colleague.
 
