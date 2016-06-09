@@ -12,7 +12,7 @@ Essentially, we are trying to avoid a situation like this one :
 
 ![Version History](http://www.phdcomics.com/comics/archive/phd101212s.gif)
 
-At a fundamental level, the problem is that we do not create perfect products the first time around. We add to them, remove things from them, and revise them heavily. For word processing tasks, like the PhD Comics example, this is somewhat harmless, and really is only costing you time in finding the correct document, or some embarassment if you send the wrong document to a colleague.
+At a fundamental level, the problem is that we do not create perfect products the first time around. We add to them, remove things from them, and revise them heavily. For word processing tasks, like the PhD Comics example, this is somewhat harmless, and really is only costing you time in finding the correct document, or some embarrassment if you send the wrong document to a colleague.
 
 If you are smart, you are already collecting, cleaning, reshaping, and analyzing your data in a way that is self documenting. That is to say, you are writing it in code, and are not modifying pieces of it by hand or in a GUI. The upside to this is reproducibility. The downside is that if any of your code is the wrong version, your whole pipeline gets bunked.
 
@@ -20,7 +20,7 @@ Unlike the situation above, when you can't find the right version of your proces
 
 1. Not verifiable
 2. Not explainable
-3. not extendible
+3. not extendable
 
 So, we need a way to know which version of our pipeline we are using and what has changed since the last version.
 
@@ -123,7 +123,7 @@ It's a good idea to make separate branches to work on different parts of your wo
 
 Once you've changed some files in your repository, you can make those changes permanent by `commit`ting them. This allows you to revert back to that file, in that state, whenever you like, at any time in the future.
 
-To commit files in GitHub Desktop, switch to the "Uncomitted changes" tab (you'll see it at the top of the app window). Any changed files will be listed on the left-hand side. By defualt, all changed files are selected, which is usually a bad thing. So, we start by unchecking the box to the left of "#n Changes".
+To commit files in GitHub Desktop, switch to the "Uncommitted changes" tab (you'll see it at the top of the app window). Any changed files will be listed on the left-hand side. By default, all changed files are selected, which is usually a bad thing. So, we start by unchecking the box to the left of "#n Changes".
 
 Then, we choose which changes we want to commit, and click the check box next to those one by one.
 
@@ -137,7 +137,7 @@ Once you've made your changes in a branch, you can test them to make sure they d
 
 First, we switch back into our `master` branch, from the branch button at the top of the screen.
 
-Just undernead that button, in the history viewer, there is a button that says "compare". We'll click that one, and then select the branch we've been working on. This button should now say "Update from branch".
+Just underneath that button, in the history viewer, there is a button that says "compare". We'll click that one, and then select the branch we've been working on. This button should now say "Update from branch".
 
 To merge in your changes, click that button!
 
